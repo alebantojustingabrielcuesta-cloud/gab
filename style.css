@@ -1,0 +1,56 @@
+.nav1 {
+    text-align: center;
+}
+/*picture to pre na part*/
+/* Carousel */
+.carousel-window {
+    width: 600px;
+    overflow: hidden;
+    margin: 80px auto;
+}
+
+.carousel {
+    display: flex;
+    gap: 20px;
+    transition: transform 0.6s ease;
+}
+.slide {
+    width: 600px;
+    height: 400px;
+    flex-shrink: 0;
+    position: relative;
+}
+
+.slide img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+/*eto text na dito*/
+.slide-text {
+    position: absolute;
+    top: 20px;
+    left: 20px;
+    color: black;
+    font-size: 20px;
+}
+.slide-text h2 {
+    font-size: 32px;
+    margin: 0;
+}
+.slide-text p {
+    font-size: 16px;
+    margin: 8px 0 0;
+}
+
+.learn-more {
+    position: absolute;
+    top: 20px;
+    right: 20px;
+    color: white;
+    text-decoration: none;
+
+    background: #0077ed;
+    padding: 10px 18px;
+    border-radius: 25px;
+}
